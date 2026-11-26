@@ -1,6 +1,6 @@
 cask "needs-you" do
-  version "1.0.1"
-  sha256 "5cfac0d62d63a4b696c4053019208f56c1e0601902127e7fe2d04c5b7240009e"
+  version "1.1.0"
+  sha256 "47a2e18a991fa8bbefc77cb7912d524616446ab7873f65c6e4477de13f85c13a"
 
   url "https://github.com/usehomemade/needs-you/releases/download/v#{version}/NeedsYou-#{version}.zip"
   name "Needs You"
