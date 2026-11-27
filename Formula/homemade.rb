@@ -2,26 +2,26 @@
 class Homemade < Formula
   desc "Command-line interface for homemade.dev"
   homepage "https://homemade.dev"
-  version "2.6.0"
+  version "2.7.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/usehomemade/homemade/releases/download/v2.6.0/homemade-darwin-arm64"
-      sha256 "e5bc66589aa47c2c5c840100e8072ed903fa30aeb6b85fe5b3a8743abf3bfcaa"
+      url "https://github.com/usehomemade/homemade/releases/download/v2.7.0/homemade-darwin-arm64"
+      sha256 "a5ce989cdb7b4b0d062a478a2bd41681159a89f324b99f9ca84d6da6ae5ed98d"
     else
-      url "https://github.com/usehomemade/homemade/releases/download/v2.6.0/homemade-darwin-x64"
-      sha256 "422cc48816fd272989291cac43644f0422d74913b3344ef0639fdaec90f3d915"
+      url "https://github.com/usehomemade/homemade/releases/download/v2.7.0/homemade-darwin-x64"
+      sha256 "1c381bb065052a18d0a338e10a73efda6cbda5f94d8040e4defd47c7584111d6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/usehomemade/homemade/releases/download/v2.6.0/homemade-linux-arm64"
-      sha256 "5aad3a8aa18c80c65c536c52a2538bd751e19340adc1ae19a22d8c7ac1a0e216"
+      url "https://github.com/usehomemade/homemade/releases/download/v2.7.0/homemade-linux-arm64"
+      sha256 "9cf5013b1391d69b00f39244e5b87f417774b794a81ec916dc27e84a35092950"
     else
-      url "https://github.com/usehomemade/homemade/releases/download/v2.6.0/homemade-linux-x64"
-      sha256 "5a5b92b742c5c099cd6a66dd18305e93f3d9cd26f4ecd5cad7432d2f76ada823"
+      url "https://github.com/usehomemade/homemade/releases/download/v2.7.0/homemade-linux-x64"
+      sha256 "1e5758e0a115e15415f294bed89d65b9dd936af9003d4132b7c07b7b2a650df8"
     end
   end
 
